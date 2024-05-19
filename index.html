@@ -1,62 +1,100 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Índice de Contenidos</title>
+    <title>Índice de Contenidos Avanzado</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 5px 0;
+        }
+        nav ul li a {
+            color: #ddd;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
             padding: 20px;
         }
-        h1, h2, h3 {
-            margin-top: 1em;
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
         }
-        #indice {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border: 1px solid #ddd;
+        section {
             margin-bottom: 20px;
-        }
-        #indice a {
-            text-decoration: none;
-            color: #00f;
-        }
-        #indice a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-    <h1>Índice de Contenidos</h1>
+    <header>
+        <h1>Índice de Contenidos Avanzado</h1>
+    </header>
 
-    <div id="indice">
+    <nav>
         <ul>
             <li><a href="#introduccion">Introducción</a></li>
-            <li><a href="#seccion1">Sección 1: Historia</a></li>
-            <li><a href="#seccion2">Sección 2: Características</a></li>
-            <li><a href="#seccion3">Sección 3: Aplicaciones</a></li>
+            <li><a href="#capitulo1">Capítulo 1: Conceptos Básicos</a></li>
+            <li><a href="#capitulo2">Capítulo 2: Desarrollo</a></li>
+            <li><a href="#capitulo3">Capítulo 3: Implementación</a></li>
             <li><a href="#conclusion">Conclusión</a></li>
+            <li><a href="#referencias">Referencias</a></li>
         </ul>
-    </div>
+    </nav>
 
-    <h2 id="introduccion">Introducción</h2>
-    <p>Esta es la introducción al tema. Aquí puedes hablar sobre el propósito del documento y proporcionar una visión general del contenido.</p>
+    <main>
+        <section id="introduccion">
+            <h2>Introducción</h2>
+            <p>Bienvenidos a este documento. Aquí se proporcionará una visión general sobre los temas que se discutirán en los capítulos siguientes.</p>
+        </section>
 
-    <h2 id="seccion1">Sección 1: Historia</h2>
-    <p>En esta sección, se detalla la historia del tema. Puedes incluir fechas importantes, eventos clave y evolución a lo largo del tiempo.</p>
+        <section id="capitulo1">
+            <h2>Capítulo 1: Conceptos Básicos</h2>
+            <p>En este capítulo, exploraremos los conceptos fundamentales que necesitas conocer para comprender el resto del contenido.</p>
+        </section>
 
-    <h2 id="seccion2">Sección 2: Características</h2>
-    <p>Aquí se describen las características principales del tema. Incluye detalles, especificaciones y otras particularidades relevantes.</p>
+        <section id="capitulo2">
+            <h2>Capítulo 2: Desarrollo</h2>
+            <p>El desarrollo incluye todos los pasos necesarios para crear y refinar los conceptos previamente discutidos.</p>
+        </section>
 
-    <h2 id="seccion3">Sección 3: Aplicaciones</h2>
-    <p>Esta sección se centra en las aplicaciones prácticas del tema. Explica cómo y dónde se utiliza, así como ejemplos específicos.</p>
+        <section id="capitulo3">
+            <h2>Capítulo 3: Implementación</h2>
+            <p>En esta sección, veremos cómo implementar los conceptos y desarrollos en aplicaciones prácticas.</p>
+        </section>
 
-    <h2 id="conclusion">Conclusión</h2>
-    <p>La conclusión resume los puntos principales discutidos en el documento y puede ofrecer algunas reflexiones finales o llamar a la acción.</p>
+        <section id="conclusion">
+            <h2>Conclusión</h2>
+            <p>Resumen de los puntos clave discutidos en el documento y algunas reflexiones finales.</p>
+        </section>
+
+        <section id="referencias">
+            <h2>Referencias</h2>
+            <p>Lista de recursos y referencias utilizadas para la elaboración de este documento.</p>
+        </section>
+    </main>
 
 </body>
 </html>
